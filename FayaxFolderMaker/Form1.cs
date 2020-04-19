@@ -22,7 +22,7 @@ namespace FayaxFolderMaker
         /// todo upload the program to sourceforge.net
         /// todo  make all the simulate foldrers world. 
         /// todo open the dest folder when complete in the first tab
-        /// 
+        /// todo make sure duplicates are deleted
 
         private void fayaxFolderMaker_Load(object sender, EventArgs e)
         {
