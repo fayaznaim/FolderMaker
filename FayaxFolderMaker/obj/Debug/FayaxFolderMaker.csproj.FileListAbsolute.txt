@@ -1,0 +1,17 @@
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\bin\Debug\FayaxFolderMaker.exe.config
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\bin\Debug\FayaxFolderMaker.exe
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\bin\Debug\FayaxFolderMaker.pdb
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.fayaxFolderMaker.resources
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.Properties.Resources.resources
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.csproj.GenerateResource.Cache
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.exe
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.pdb
+C:\razerdata\scripts\c-sharp\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.csprojResolveAssemblyReference.cache
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\bin\Debug\FayaxFolderMaker.exe.config
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\bin\Debug\FayaxFolderMaker.exe
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\bin\Debug\FayaxFolderMaker.pdb
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.fayaxFolderMaker.resources
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.Properties.Resources.resources
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.csproj.GenerateResource.cache
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.exe
+C:\fayax\scripts\FayaxFolderMaker\FayaxFolderMaker\obj\Debug\FayaxFolderMaker.pdb
