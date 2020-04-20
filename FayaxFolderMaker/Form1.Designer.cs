@@ -382,10 +382,10 @@
             // 
             // delimTbx
             // 
-            this.delimTbx.Location = new System.Drawing.Point(7, 208);
+            this.delimTbx.Location = new System.Drawing.Point(61, 187);
             this.delimTbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.delimTbx.Name = "delimTbx";
-            this.delimTbx.Size = new System.Drawing.Size(86, 22);
+            this.delimTbx.Size = new System.Drawing.Size(350, 22);
             this.delimTbx.TabIndex = 4;
             this.delimTbx.TextChanged += new System.EventHandler(this.delimTbx_TextChanged);
             // 
@@ -395,9 +395,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(4, 188);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(347, 18);
+            this.label7.Size = new System.Drawing.Size(45, 18);
             this.label7.TabIndex = 15;
-            this.label7.Text = "1st-Delimiter ( ! # $ % & \' ( ) + , - .  ; = @ [ ] ^ _ ` { } ~ )";
+            this.label7.Text = "Prefix";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // staticTbx
@@ -817,7 +817,7 @@
             this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button8.Location = new System.Drawing.Point(478, 375);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(71, 25);
+            this.button8.Size = new System.Drawing.Size(77, 25);
             this.button8.TabIndex = 46;
             this.button8.Text = "Simulate";
             this.button8.UseVisualStyleBackColor = true;
@@ -1217,7 +1217,7 @@
             // button9
             // 
             this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.Location = new System.Drawing.Point(474, 375);
+            this.button9.Location = new System.Drawing.Point(387, 371);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(90, 25);
             this.button9.TabIndex = 9;
@@ -1263,7 +1263,7 @@
             // createFromTextFileBtn
             // 
             this.createFromTextFileBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.createFromTextFileBtn.Location = new System.Drawing.Point(581, 375);
+            this.createFromTextFileBtn.Location = new System.Drawing.Point(584, 370);
             this.createFromTextFileBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.createFromTextFileBtn.Name = "createFromTextFileBtn";
             this.createFromTextFileBtn.Size = new System.Drawing.Size(238, 25);
