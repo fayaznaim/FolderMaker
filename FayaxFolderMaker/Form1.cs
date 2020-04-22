@@ -90,8 +90,8 @@ namespace FayaxFolderMaker
                 System.Threading.Thread.Sleep(150);
                 for (long i = startingNumber; i < (startingNumber + numberOfFolders); ++i)
                 {
-                    System.IO.Directory.CreateDirectory(i + delimTbx.Text + staticTbx.Text + "\n");
-                    richTextBox1.AppendText(i + delimTbx.Text + staticTbx.Text + "\n");
+                    System.IO.Directory.CreateDirectory(delimTbx.Text + i + staticTbx.Text + "\n");
+                    richTextBox1.AppendText(delimTbx.Text + i + staticTbx.Text + "\n");
                     richTextBox1.Focus();
                     richTextBox1.Select(richTextBox1.Text.Length, 0);  //This puts the cursor at the end
                 }
