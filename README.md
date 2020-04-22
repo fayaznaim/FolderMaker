@@ -8,7 +8,7 @@ A small utility to create folders, hundreds, thousands of them. The "Simulate" b
 
 In the tab titled "List to folders": You can paste a list of words which will be your folder names.
 
-In the tab titled "Numbered", numbered folders can be created and also static names, prefixes, postfixes can be added.
+In the tab titled "Numbered", numbered folders can be created with prefixes, postfixes can be added.
 
 In the tab titled "Calendar" weekday and month name folders.
 
