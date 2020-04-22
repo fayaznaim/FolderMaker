@@ -90,8 +90,8 @@ namespace FayaxFolderMaker
                 System.Threading.Thread.Sleep(150);
                 for (long i = startingNumber; i < (startingNumber + numberOfFolders); ++i)
                 {
-                    System.IO.Directory.CreateDirectory(i + delimTbx.Text + staticTbx.Text + delim2Tbx.Text + "\n");
-                    richTextBox1.AppendText(i + delimTbx.Text + staticTbx.Text + delim2Tbx.Text + "\n");
+                    System.IO.Directory.CreateDirectory(i + delimTbx.Text + staticTbx.Text + "\n");
+                    richTextBox1.AppendText(i + delimTbx.Text + staticTbx.Text + "\n");
                     richTextBox1.Focus();
                     richTextBox1.Select(richTextBox1.Text.Length, 0);  //This puts the cursor at the end
                 }
@@ -130,14 +130,13 @@ namespace FayaxFolderMaker
             {
                 richTextBox1.Clear();
                 statusLbl.Text = "(Simulation Only) Creating folders...";
-                System.Threading.Thread.Sleep(50);
+                System.Threading.Thread.Sleep(10);
                 long startingNumber = Convert.ToInt64(startingNumberTbx.Text);
                 long numberOfFolders = Convert.ToInt64(numberOfFoldersTbx.Text);
 
-
                 for (long i = startingNumber; i < (numberOfFolders + startingNumber); ++i)
                 {
-                    richTextBox1.AppendText(i + delimTbx.Text + staticTbx.Text + delim2Tbx.Text + "\n");
+                    richTextBox1.AppendText(delimTbx.Text + i + staticTbx.Text + "\n");
                     richTextBox1.Focus();
                     richTextBox1.Select(richTextBox1.Text.Length, 0);
                 }
@@ -158,7 +157,7 @@ namespace FayaxFolderMaker
             staticTbx.Clear();
             richTextBox1.Clear();
             delimTbx.Clear();
-            delim2Tbx.Clear();
+            
             statusLbl.Text = "Status";
             startingNumberTbx.Clear();
             numberOfFoldersTbx.Clear();
@@ -184,10 +183,6 @@ namespace FayaxFolderMaker
 
         }
         private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void delim2Tbx_TextChanged(object sender, EventArgs e)
         {
 
         }

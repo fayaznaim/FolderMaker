@@ -43,8 +43,6 @@
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.label8 = new System.Windows.Forms.Label();
-            this.delim2Tbx = new System.Windows.Forms.TextBox();
-            this.delim2Lbl = new System.Windows.Forms.Label();
             this.clearBtn = new System.Windows.Forms.Button();
             this.delimTbx = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
@@ -319,8 +317,6 @@
             // 
             this.tabPage1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.tabPage1.Controls.Add(this.label8);
-            this.tabPage1.Controls.Add(this.delim2Tbx);
-            this.tabPage1.Controls.Add(this.delim2Lbl);
             this.tabPage1.Controls.Add(this.clearBtn);
             this.tabPage1.Controls.Add(this.delimTbx);
             this.tabPage1.Controls.Add(this.label7);
@@ -349,25 +345,6 @@
             this.label8.TabIndex = 19;
             this.label8.Text = "Optional Parameters";
             // 
-            // delim2Tbx
-            // 
-            this.delim2Tbx.Location = new System.Drawing.Point(223, 274);
-            this.delim2Tbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.delim2Tbx.Name = "delim2Tbx";
-            this.delim2Tbx.Size = new System.Drawing.Size(185, 22);
-            this.delim2Tbx.TabIndex = 6;
-            this.delim2Tbx.TextChanged += new System.EventHandler(this.delim2Tbx_TextChanged);
-            // 
-            // delim2Lbl
-            // 
-            this.delim2Lbl.AutoSize = true;
-            this.delim2Lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.delim2Lbl.Location = new System.Drawing.Point(8, 275);
-            this.delim2Lbl.Name = "delim2Lbl";
-            this.delim2Lbl.Size = new System.Drawing.Size(195, 18);
-            this.delim2Lbl.TabIndex = 17;
-            this.delim2Lbl.Text = "2nd-Delimiter and/or any text";
-            // 
             // clearBtn
             // 
             this.clearBtn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -382,10 +359,10 @@
             // 
             // delimTbx
             // 
-            this.delimTbx.Location = new System.Drawing.Point(61, 187);
+            this.delimTbx.Location = new System.Drawing.Point(99, 187);
             this.delimTbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.delimTbx.Name = "delimTbx";
-            this.delimTbx.Size = new System.Drawing.Size(350, 22);
+            this.delimTbx.Size = new System.Drawing.Size(306, 22);
             this.delimTbx.TabIndex = 4;
             this.delimTbx.TextChanged += new System.EventHandler(this.delimTbx_TextChanged);
             // 
@@ -393,19 +370,19 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(4, 188);
+            this.label7.Location = new System.Drawing.Point(21, 188);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(45, 18);
+            this.label7.Size = new System.Drawing.Size(68, 18);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Prefix";
+            this.label7.Text = "Prepend-";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // staticTbx
             // 
-            this.staticTbx.Location = new System.Drawing.Point(117, 248);
+            this.staticTbx.Location = new System.Drawing.Point(99, 215);
             this.staticTbx.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.staticTbx.Name = "staticTbx";
-            this.staticTbx.Size = new System.Drawing.Size(291, 22);
+            this.staticTbx.Size = new System.Drawing.Size(306, 22);
             this.staticTbx.TabIndex = 5;
             this.staticTbx.TextChanged += new System.EventHandler(this.staticTbx_TextChanged);
             // 
@@ -425,11 +402,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(8, 249);
+            this.label3.Location = new System.Drawing.Point(23, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 18);
+            this.label3.Size = new System.Drawing.Size(62, 18);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Static Name";
+            this.label3.Text = "-Append";
             // 
             // groupBox2
             // 
@@ -1758,8 +1735,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox delimTbx;
-        private System.Windows.Forms.TextBox delim2Tbx;
-        private System.Windows.Forms.Label delim2Lbl;
         private System.Windows.Forms.Label statusLbl;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.CheckBox openFolderCbx;
