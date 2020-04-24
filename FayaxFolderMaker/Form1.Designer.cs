@@ -275,7 +275,7 @@
             // button12
             // 
             this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.Location = new System.Drawing.Point(573, 375);
+            this.button12.Location = new System.Drawing.Point(584, 375);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(250, 25);
             this.button12.TabIndex = 3;
@@ -299,7 +299,7 @@
             this.richTextBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.richTextBox7.Location = new System.Drawing.Point(420, 34);
             this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(403, 338);
+            this.richTextBox7.Size = new System.Drawing.Size(414, 338);
             this.richTextBox7.TabIndex = 99;
             this.richTextBox7.Text = "";
             this.richTextBox7.TextChanged += new System.EventHandler(this.richTextBox7_TextChanged);
@@ -1559,7 +1559,7 @@
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(736, 7);
+            this.button1.Location = new System.Drawing.Point(747, 7);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(99, 28);
@@ -1570,10 +1570,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(165, 10);
+            this.textBox1.Location = new System.Drawing.Point(168, 10);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(464, 22);
+            this.textBox1.Size = new System.Drawing.Size(461, 22);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -1583,7 +1583,7 @@
             this.browseBtn.Location = new System.Drawing.Point(635, 7);
             this.browseBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.browseBtn.Name = "browseBtn";
-            this.browseBtn.Size = new System.Drawing.Size(99, 28);
+            this.browseBtn.Size = new System.Drawing.Size(106, 28);
             this.browseBtn.TabIndex = 9;
             this.browseBtn.Text = "Browse";
             this.browseBtn.UseVisualStyleBackColor = true;
@@ -1614,16 +1614,16 @@
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Red;
-            this.label14.Location = new System.Drawing.Point(299, 489);
+            this.label14.Location = new System.Drawing.Point(289, 489);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(374, 18);
+            this.label14.Size = new System.Drawing.Size(370, 18);
             this.label14.TabIndex = 23;
-            this.label14.Text = "Characters NOT allowed in folder names: \" \t* \t/ \t: \t< \t> \t? \t\\ \t| ";
+            this.label14.Text = "Characters NOT allowed in folder names: \" \t* \t/ \t: \t< \t> \t? \t\\ \t|";
             // 
             // tabLeft
             // 
             this.tabLeft.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tabLeft.Location = new System.Drawing.Point(204, 484);
+            this.tabLeft.Location = new System.Drawing.Point(201, 484);
             this.tabLeft.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabLeft.Name = "tabLeft";
             this.tabLeft.Size = new System.Drawing.Size(40, 26);
@@ -1635,7 +1635,7 @@
             // tabRight
             // 
             this.tabRight.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.tabRight.Location = new System.Drawing.Point(243, 484);
+            this.tabRight.Location = new System.Drawing.Point(240, 484);
             this.tabRight.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabRight.Name = "tabRight";
             this.tabRight.Size = new System.Drawing.Size(40, 26);

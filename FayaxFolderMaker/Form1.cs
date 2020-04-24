@@ -198,6 +198,8 @@ namespace FayaxFolderMaker
         {
 
         }
+
+        #region //calendar tab MAKE folders button
         private void createDateFolders_Click(object sender, EventArgs e)
         {
             // dow = day of week
@@ -294,6 +296,93 @@ namespace FayaxFolderMaker
                 }
             }
         }
+        #endregion
+
+
+        #region //calendar tab SIMULATE folder button 
+        private void button7_Click(object sender, EventArgs e)
+        {
+            // dow = day of week
+            // moy = month of year
+            string[] dowFull = new string[7] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
+            string[] dowBrev = new string[7] { "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun" };
+            string[] moyFull = new string[12] { "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" };
+            string[] moyBrev = new string[12] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
+            string[] moyNums = new string[12] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" };
+
+            if (textBox1.TextLength == 0)
+            {
+                MessageBox.Show("A mandatory field is not specified.\n(Items in blue and with asterisk are mandatory.)", "Cannot complete task", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (textBox1.TextLength != 0)
+            {
+                var parentFolder = textBox1.Text;
+                statusLbl2.Text = "The following folders will be created:";
+
+                if (dowFullRbtn.Checked == true && dowBriefCbx.Checked != true)
+                {
+                    richTextBox2.Clear();
+                    for (int i = 0; i <= 6; i++)
+                    {
+                        
+                        richTextBox2.AppendText(dowFull[i] + "\n");
+                    }
+                    if (openFolderCbx.Checked == true)
+
+                    Directory.SetCurrentDirectory(@"c:\");      //changing the focus so the created folders can be deleted
+                }
+                else if (dowFullRbtn.Checked == true && dowBriefCbx.Checked == true)
+                {
+                    richTextBox2.Clear();
+                    for (int i = 0; i <= 6; i++)
+                    {
+                       
+                        richTextBox2.AppendText(dowBrev[i] + "\n");
+                    }
+
+                    Directory.SetCurrentDirectory(@"c:\");      //changing the focus so the created folders can be deleted
+                }
+                // Months Folders
+                else if (moyFullBtn.Checked == true && moyBriefCbx.Checked != true)
+                {
+                    richTextBox2.Clear();
+                    for (int i = 0; i <= 11; i++)
+                    {
+                        if (add2DigitNumsChbx.Checked == false)
+                        {
+                           
+                            richTextBox2.AppendText(moyFull[i] + yearTbx.Text + "\n");
+                        }
+                        else if (add2DigitNumsChbx.Checked == true)
+                        {
+                            richTextBox2.AppendText(moyNums[i] + delim3Tbx.Text + moyFull[i] + yearTbx.Text + "\n");
+                        }
+                    }
+
+                    Directory.SetCurrentDirectory(@"c:\");      //changing the focus so the created folders can be deleted
+                }
+                else if (moyFullBtn.Checked == true && moyBriefCbx.Checked == true)
+                {
+                    richTextBox2.Clear();
+                    for (int i = 0; i <= 11; i++)
+                    {
+                        if (add2DigitNumsChbx.Checked == false)
+                        {
+                            richTextBox2.AppendText(moyBrev[i] + yearTbx.Text + "\n");
+                        }
+                        else if (add2DigitNumsChbx.Checked == true)
+                        {
+                            richTextBox2.AppendText(moyNums[i] + delim3Tbx.Text + moyBrev[i] + yearTbx.Text + "\n");
+                        }
+                    }
+
+                    Directory.SetCurrentDirectory(@"c:\");      //changing the focus so the created folders can be deleted
+                }
+            }
+        }
+        #endregion
+
+
         private void richTextBox2_TextChanged(object sender, EventArgs e)
         {
 
@@ -1186,10 +1275,6 @@ namespace FayaxFolderMaker
 
         }
 
-        private void button7_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("no code yet");
-        }
 
         private void button8_Click(object sender, EventArgs e)
         {
