@@ -19,3 +19,5 @@ Fourth Tab "From Textfile" will read the textfile that you point to to get the n
 Fifth Tab, "Specialized Folder" has some predefined folder names. I will add more here as I come across some that might be useful. Please feel free to make some suggesstions.
 
 About Tab: Contains information like the one in this readme.
+
+Please see the wiki in github if you want to see the screenshots and some explanation. 
