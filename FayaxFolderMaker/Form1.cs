@@ -1331,7 +1331,7 @@ namespace FayaxFolderMaker
         private void button12_Click(object sender, EventArgs e)
         {
             richTextBox7.Clear();
-            label19.Text = ("The following folder(S) created...");
+            label19.Text = ("The following folder(s) created...");
             if (textBox1.TextLength == 0 && richTextBox6.TextLength == 0)
             {
                 MessageBox.Show("Two mandatory field(s) missing.\n\nPlease provide the following:\n\n1. Destination location for folders\n2. Name(s) of the folder(s) to create.", "CANNOT COMPLETE TASK", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
