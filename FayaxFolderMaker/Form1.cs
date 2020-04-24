@@ -317,7 +317,7 @@ namespace FayaxFolderMaker
             else if (textBox1.TextLength != 0)
             {
                 var parentFolder = textBox1.Text;
-                statusLbl2.Text = "The following folders will be created:";
+                statusLbl2.Text = "The following folders WILL be created:";
 
                 if (dowFullRbtn.Checked == true && dowBriefCbx.Checked != true)
                 {
@@ -1296,7 +1296,7 @@ namespace FayaxFolderMaker
         private void button11_Click(object sender, EventArgs e)
         {
             richTextBox7.Clear();  // clear the result rtb
-
+            label19.Text = ("The following folder(s) will be created...");
             if (textBox1.TextLength == 0 && richTextBox6.TextLength == 0)
             {
                 MessageBox.Show("Two mandatory field(s) missing.\n\nPlease provide the following:\n\n1. Destination location for folders\n2. Name(s) of the folder(s) to create.", "CANNOT COMPLETE TASK", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -1331,6 +1331,7 @@ namespace FayaxFolderMaker
         private void button12_Click(object sender, EventArgs e)
         {
             richTextBox7.Clear();
+            label19.Text = ("The following folder(S) created...");
             if (textBox1.TextLength == 0 && richTextBox6.TextLength == 0)
             {
                 MessageBox.Show("Two mandatory field(s) missing.\n\nPlease provide the following:\n\n1. Destination location for folders\n2. Name(s) of the folder(s) to create.", "CANNOT COMPLETE TASK", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -1364,6 +1365,7 @@ namespace FayaxFolderMaker
         private void button13_Click(object sender, EventArgs e)
         {
             richTextBox6.Clear();
+            richTextBox7.Clear();
         }
 
         private void richTextBox6_TextChanged(object sender, EventArgs e)

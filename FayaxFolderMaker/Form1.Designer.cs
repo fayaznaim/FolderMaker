@@ -160,6 +160,7 @@
             this.tabLeft = new System.Windows.Forms.Button();
             this.tabRight = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -197,6 +198,7 @@
             // 
             // tabPage7
             // 
+            this.tabPage7.Controls.Add(this.label19);
             this.tabPage7.Controls.Add(this.label18);
             this.tabPage7.Controls.Add(this.label17);
             this.tabPage7.Controls.Add(this.label16);
@@ -1653,6 +1655,15 @@
             this.label15.TabIndex = 26;
             this.label15.Text = "Tab Controls";
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(420, 11);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(48, 17);
+            this.label19.TabIndex = 100;
+            this.label19.Text = "Status";
+            // 
             // fayaxFolderMaker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1841,6 +1852,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label19;
     }
 }
 
