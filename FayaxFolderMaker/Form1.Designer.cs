@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fayaxFolderMaker));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -77,7 +78,6 @@
             this.delim3Tbx = new System.Windows.Forms.TextBox();
             this.createDateFolders = new System.Windows.Forms.Button();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.button8 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.statusLbl3 = new System.Windows.Forms.Label();
@@ -160,7 +160,6 @@
             this.tabLeft = new System.Windows.Forms.Button();
             this.tabRight = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -216,6 +215,15 @@
             this.tabPage7.Text = "List to Folders";
             this.tabPage7.UseVisualStyleBackColor = true;
             this.tabPage7.Click += new System.EventHandler(this.tabPage7_Click);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(420, 11);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(48, 17);
+            this.label19.TabIndex = 100;
+            this.label19.Text = "Status";
             // 
             // label18
             // 
@@ -745,7 +753,6 @@
             // tabPage4
             // 
             this.tabPage4.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.tabPage4.Controls.Add(this.button8);
             this.tabPage4.Controls.Add(this.label9);
             this.tabPage4.Controls.Add(this.groupBox5);
             this.tabPage4.Controls.Add(this.label12);
@@ -790,17 +797,6 @@
             this.tabPage4.Size = new System.Drawing.Size(837, 404);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Custom Folders";
-            // 
-            // button8
-            // 
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.Location = new System.Drawing.Point(478, 375);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(77, 25);
-            this.button8.TabIndex = 46;
-            this.button8.Text = "Simulate";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // label9
             // 
@@ -868,10 +864,10 @@
             // customCreateBtn
             // 
             this.customCreateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customCreateBtn.Location = new System.Drawing.Point(575, 374);
+            this.customCreateBtn.Location = new System.Drawing.Point(480, 374);
             this.customCreateBtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.customCreateBtn.Name = "customCreateBtn";
-            this.customCreateBtn.Size = new System.Drawing.Size(250, 25);
+            this.customCreateBtn.Size = new System.Drawing.Size(345, 25);
             this.customCreateBtn.TabIndex = 33;
             this.customCreateBtn.Text = "Make Folders";
             this.customCreateBtn.UseVisualStyleBackColor = true;
@@ -1655,15 +1651,6 @@
             this.label15.TabIndex = 26;
             this.label15.Text = "Tab Controls";
             // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(420, 11);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(48, 17);
-            this.label19.TabIndex = 100;
-            this.label19.Text = "Status";
-            // 
             // fayaxFolderMaker
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1839,7 +1826,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button12;

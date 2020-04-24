@@ -984,6 +984,7 @@ namespace FayaxFolderMaker
             richTextBox4.Clear();
         }
 
+        #region // tab : "From Textfile" make folders button 
         private void createFromTextFileBtn_Click(object sender, EventArgs e)
         {
             string textFileLines;
@@ -1021,6 +1022,49 @@ namespace FayaxFolderMaker
                 }
             }
         }
+
+        #endregion
+
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string textFileLines;
+            if (txtfileTbx.Text == "" || textBox1.Text == "")
+            {
+                MessageBox.Show("A mandatory field is not specified.\n(Items in blue and with asterisk are mandatory.)", "Cannot complete task", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else if (txtfileTbx.Text != "" && textBox1.Text != "")
+            {
+                richTextBox4.Clear();
+                System.IO.StreamReader textFile = new System.IO.StreamReader(txtfileTbx.Text);
+                //System.IO.Directory.CreateDirectory(textBox1.Text);
+                Directory.SetCurrentDirectory(textBox1.Text);
+
+                while ((textFileLines = textFile.ReadLine()) != null)
+                {
+                    if (textFileLines == "")
+                    {
+                        richTextBox4.AppendText("<EOF or blank line reached.>");
+                        textFile.Close();
+                        textFile.Dispose();
+                        break;
+                    }
+                    //System.IO.Directory.CreateDirectory(textFileLines);
+                    richTextBox4.AppendText(textFileLines + "\n");
+                    richTextBox4.Focus();
+                    richTextBox4.Select(richTextBox4.Text.Length, 0);
+                    statusLbl4.Text = "Folders will be created...";
+                }
+                statusLbl4.Text = "Following folders created.";
+                //Directory.SetCurrentDirectory(@"c:\");
+                //if (openFolderCbx.Checked == true)
+                //{
+                //    System.Diagnostics.Process.Start(textBox1.Text);  // Opens the folder where folders were created
+                //}
+            }
+        }
+
+
         private void button3_Click(object sender, EventArgs e)
         {
             string textFileLines;
@@ -1275,17 +1319,6 @@ namespace FayaxFolderMaker
 
         }
 
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("no code yet");
-        }
-
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("no code yet");
-        }
 
         private void button10_Click(object sender, EventArgs e)
         {
