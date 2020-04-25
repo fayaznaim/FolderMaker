@@ -1524,7 +1524,7 @@
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(19, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(716, 326);
+            this.label5.Size = new System.Drawing.Size(671, 272);
             this.label5.TabIndex = 2;
             this.label5.Text = resources.GetString("label5.Text");
             this.label5.Click += new System.EventHandler(this.label5_Click);

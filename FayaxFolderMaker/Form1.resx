@@ -120,13 +120,10 @@
   <data name="label5.Text" xml:space="preserve">
     <value>Fayax Folder Creator is a small utility to create folders.
 
-
-Folders are created within parent folder and a prefix with a number is added. Optionally a static name can be 
-given and a suffix can be added also. 
-
 Formats:
 
-Folder Maker:             &lt;number&gt;&lt;delimiter&gt;&lt;static name&gt;&lt;delimiter2&gt;&lt;suffix with date or any constant&gt;
+List to Folders:
+Numbered:             &lt;number&gt;&lt;delimiter&gt;&lt;static name&gt;&lt;delimiter2&gt;&lt;suffix with date or any constant&gt;
 Calendar Folders:      &lt;optional 2 digit number&gt;&lt;optional delimiter&gt;&lt;long or short month or day&gt;
 Custom Folders:         &lt;name of folder&gt;
 From TextFile:            &lt;name of folder&gt;
