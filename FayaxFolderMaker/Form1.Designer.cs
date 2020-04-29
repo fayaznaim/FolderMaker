@@ -1344,7 +1344,7 @@
             // button10
             // 
             this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.Location = new System.Drawing.Point(474, 375);
+            this.button10.Location = new System.Drawing.Point(343, 375);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(90, 25);
             this.button10.TabIndex = 6;
@@ -1447,10 +1447,10 @@
             this.animalsRbtn.Location = new System.Drawing.Point(11, 94);
             this.animalsRbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.animalsRbtn.Name = "animalsRbtn";
-            this.animalsRbtn.Size = new System.Drawing.Size(108, 21);
+            this.animalsRbtn.Size = new System.Drawing.Size(262, 21);
             this.animalsRbtn.TabIndex = 1;
             this.animalsRbtn.TabStop = true;
-            this.animalsRbtn.Text = "Animals (52)";
+            this.animalsRbtn.Text = "Animals (52) (Some popular animals)";
             this.animalsRbtn.UseVisualStyleBackColor = true;
             this.animalsRbtn.CheckedChanged += new System.EventHandler(this.animalsRbtn_CheckedChanged);
             // 

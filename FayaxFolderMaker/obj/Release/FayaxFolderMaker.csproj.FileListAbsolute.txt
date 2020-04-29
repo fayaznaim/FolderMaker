@@ -16,4 +16,3 @@ C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\FayaxFolder
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\FayaxFolderMaker.exe
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\FayaxFolderMaker.pdb
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\FayaxFolderMakerIcon.ico
-C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\obj\Release\FayaxFolderMaker.csprojAssemblyReference.cache

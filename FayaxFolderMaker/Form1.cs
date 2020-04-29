@@ -1086,9 +1086,7 @@ namespace FayaxFolderMaker
                         break;
                     }
                 }
-
             }
-
         }
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -1125,6 +1123,8 @@ namespace FayaxFolderMaker
             currentTab = tabControl1.SelectedIndex;
             tabControl1.SelectedIndex = currentTab + 1;
         }
+
+        #region // specialzed folder button
         private void button4_Click(object sender, EventArgs e)
         {
             string[] usStates = new string[50] { "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York", "North Carolina", "North Dakota", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming" };
@@ -1245,6 +1245,14 @@ namespace FayaxFolderMaker
             }
 
         }
+        #endregion
+
+        #region // specialized folder Simulate button. 
+        private void button10_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("no code yet");
+        } 
+        #endregion
 
         private void usStatesRbtn_CheckedChanged(object sender, EventArgs e)
         {
@@ -1319,11 +1327,6 @@ namespace FayaxFolderMaker
 
         }
 
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("no code yet");
-        }
 
         #region //simulate button for list to folders. 
         private void button11_Click(object sender, EventArgs e)

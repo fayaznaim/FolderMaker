@@ -80,7 +80,9 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="resources\cars.txt" />
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="resources\FayaxFolderMakerIcon.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
