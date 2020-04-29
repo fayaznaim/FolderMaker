@@ -1,7 +1,9 @@
+## FayaxFolderMaker
+
 ** Work in progress ** 
 If you want to use this utility please copy the /FayaxFolderMaker/bin/Release/FayaxFolderMaker.exe - standalone exe
 
-## FayaxFolderMaker
+
 A small utility to create folders, hundreds, thousands of them. The "Simulate" button is very imprtant as it does NOT create the foldrers but it will simulate the creation of the folders and shows you what you are about to create.
 
 ** Folder names cannot create certain characaters ** 
