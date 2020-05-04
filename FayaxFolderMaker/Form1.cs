@@ -3,7 +3,10 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows.Forms;
 using System.IO;
-//https://github.com/fayaznaim/FayaxFolderMaker
+using System.Reflection;
+using System.Collections.Generic;
+
+//https://github.com/fayaznaim/FolderMaker
 
 namespace FayaxFolderMaker
 {
@@ -1244,13 +1247,40 @@ namespace FayaxFolderMaker
                 }
             }
 
+            ////////////////////////////////////
+            //
+            // Creating Car manufacturers only
+            //
+            ////////////////////////////////////
+            if (textBox1.Text != "" && carmanRBtn.Checked == true)
+            {
+                string carman = "FayaxFolderMaker.resources.cars.txt";
+   List<string> carmanufacturers = carman.Split(new[]{ Environment.NewLine },StringSplitOptions.RemoveEmptyEntries).ToList();
+                foreach(string car in carmanufacturers)
+                {
+
+                }
+            }
+
         }
         #endregion
 
         #region // specialized folder Simulate button. 
         private void button10_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("no code yet");
+            var assembly = Assembly.GetExecutingAssembly();
+            if (carmanRBtn.Checked == true)
+            {
+                var resourceName = "FayaxFolderMaker.resources.cars.txt";
+                using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+                {
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        string result = reader.ReadToEnd();
+                        richTextBox5.AppendText(result);
+                    }
+                }
+            }
         } 
         #endregion
 
@@ -1363,7 +1393,7 @@ namespace FayaxFolderMaker
         }
         #endregion
 
-        #region // create butto for list to folders
+        #region // create button for list to folders
         private void button12_Click(object sender, EventArgs e)
         {
             richTextBox7.Clear();
@@ -1437,6 +1467,16 @@ namespace FayaxFolderMaker
         }
 
         private void groupBox7_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void carmanRBtn_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void folderBrowserDialog2_HelpRequest(object sender, EventArgs e)
         {
 
         }

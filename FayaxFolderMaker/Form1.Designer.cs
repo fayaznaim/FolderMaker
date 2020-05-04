@@ -138,6 +138,7 @@
             this.statusLbl5 = new System.Windows.Forms.Label();
             this.richTextBox5 = new System.Windows.Forms.RichTextBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.carmanRBtn = new System.Windows.Forms.RadioButton();
             this.elementsRbtn = new System.Windows.Forms.RadioButton();
             this.countriesRbtn = new System.Windows.Forms.RadioButton();
             this.animalsRbtn = new System.Windows.Forms.RadioButton();
@@ -1400,6 +1401,7 @@
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.Color.Gainsboro;
+            this.groupBox7.Controls.Add(this.carmanRBtn);
             this.groupBox7.Controls.Add(this.elementsRbtn);
             this.groupBox7.Controls.Add(this.countriesRbtn);
             this.groupBox7.Controls.Add(this.animalsRbtn);
@@ -1414,6 +1416,18 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Specialized Options";
             this.groupBox7.Enter += new System.EventHandler(this.groupBox7_Enter);
+            // 
+            // carmanRBtn
+            // 
+            this.carmanRBtn.AutoSize = true;
+            this.carmanRBtn.Location = new System.Drawing.Point(11, 167);
+            this.carmanRBtn.Name = "carmanRBtn";
+            this.carmanRBtn.Size = new System.Drawing.Size(146, 21);
+            this.carmanRBtn.TabIndex = 4;
+            this.carmanRBtn.TabStop = true;
+            this.carmanRBtn.Text = "Car manufacturers";
+            this.carmanRBtn.UseVisualStyleBackColor = true;
+            this.carmanRBtn.CheckedChanged += new System.EventHandler(this.carmanRBtn_CheckedChanged);
             // 
             // elementsRbtn
             // 
@@ -1590,7 +1604,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label1.Location = new System.Drawing.Point(8, 11);
             this.label1.Name = "label1";
@@ -1606,6 +1620,10 @@
             // folderBrowserDialog1
             // 
             this.folderBrowserDialog1.HelpRequest += new System.EventHandler(this.folderBrowserDialog1_HelpRequest);
+            // 
+            // folderBrowserDialog2
+            // 
+            this.folderBrowserDialog2.HelpRequest += new System.EventHandler(this.folderBrowserDialog2_HelpRequest);
             // 
             // label14
             // 
@@ -1839,6 +1857,7 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.RadioButton carmanRBtn;
     }
 }
 
