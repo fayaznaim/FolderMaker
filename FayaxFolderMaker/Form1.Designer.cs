@@ -1422,10 +1422,10 @@
             this.carmanRBtn.AutoSize = true;
             this.carmanRBtn.Location = new System.Drawing.Point(11, 167);
             this.carmanRBtn.Name = "carmanRBtn";
-            this.carmanRBtn.Size = new System.Drawing.Size(146, 21);
+            this.carmanRBtn.Size = new System.Drawing.Size(176, 21);
             this.carmanRBtn.TabIndex = 4;
             this.carmanRBtn.TabStop = true;
-            this.carmanRBtn.Text = "Car manufacturers";
+            this.carmanRBtn.Text = "Car manufacturers (42)";
             this.carmanRBtn.UseVisualStyleBackColor = true;
             this.carmanRBtn.CheckedChanged += new System.EventHandler(this.carmanRBtn_CheckedChanged);
             // 
@@ -1445,7 +1445,7 @@
             // countriesRbtn
             // 
             this.countriesRbtn.AutoSize = true;
-            this.countriesRbtn.Location = new System.Drawing.Point(11, 26);
+            this.countriesRbtn.Location = new System.Drawing.Point(11, 61);
             this.countriesRbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.countriesRbtn.Name = "countriesRbtn";
             this.countriesRbtn.Size = new System.Drawing.Size(123, 21);
@@ -1471,7 +1471,7 @@
             // usStatesRbtn
             // 
             this.usStatesRbtn.AutoSize = true;
-            this.usStatesRbtn.Location = new System.Drawing.Point(11, 60);
+            this.usStatesRbtn.Location = new System.Drawing.Point(11, 27);
             this.usStatesRbtn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.usStatesRbtn.Name = "usStatesRbtn";
             this.usStatesRbtn.Size = new System.Drawing.Size(118, 21);

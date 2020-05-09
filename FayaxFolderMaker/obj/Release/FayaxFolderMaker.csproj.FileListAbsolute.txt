@@ -17,3 +17,8 @@ C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\FayaxFolder
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\FayaxFolderMaker.pdb
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\FayaxFolderMakerIcon.ico
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\cars.txt
+C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\states.txt
+C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\animals.txt
+C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\countries.txt
+C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\elements.txt
+C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\obj\Release\FayaxFolderMaker.csprojAssemblyReference.cache
