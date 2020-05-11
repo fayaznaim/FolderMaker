@@ -1,18 +1,32 @@
-FayaxFolderMaker
-A small utility to create folders, hundreds, thousands of them. The "Simulate" button is very imprtant as it does NOT create the foldrers but it will simulate the creation of the folders and shows you what you are about to create.
+## FayaxFolderMaker
 
-** Folder names cannot create certain characaters ** ** If a folder already exists in the target directory, a new folder with the same name will NOT be created. **
+### No dependencies. That one exe is the full program. 
 
-In the tab titled "List to folders": You can paste a list of words which will be your folder names.
+## A small utility to create folders, hundreds, thousands of them. The "Simulate" button is very imprtant as it does NOT create the folders but it will simulate the creation of the folders and shows you what you are about to create.
 
-In the tab titled "Numbered", numbered folders can be created and als static names, prefixes, postfixes can be added.
+** Folder names cannot contain certain characaters - please keep that in mind. 
+** If a folder already exists in the target directory, a new folder with the same name will NOT be created. **
 
-In the tab titled "Calendar" weekday and month name folders.
+### First tab titled "List to folders": 
+You can paste a list of words which will create your folder names.
 
-The third tab is 'Custom Folders" and you can type whatever folder name you want to have creeated.
+### Second tab titled "Numbered": 
+Numbered folders can be created with prefixes, postfixes can be added.
 
-Fourth Tab "From Textfile" will read the textfile that you point to to get the names of the folders.
+### Third tab titled "Calendar": 
+Weekday and month name folders.
 
-Fifth Tab, "Specialized Folder" has some predefined folder names. I will add more here as I come across some that might be useful. Please feel free to make some suggesstions.
+### Fourth tab is 'Custom Folders": 
+You can type whatever folder name you want to have creeated.
 
-About Tab: Contains information like the one in this readme.
+### Fifth Tab "From Textfile":
+Select a text file, the program will read the textfile that you point to to get the names of the folders.
+
+### Fifth Tab, "Specialized Folder":
+Here are some predefined folder names. I will add more here as I come across some that might be useful. 
+Currently it makes US States, Countries, Animals, Elements of the periodic table, and car manufacturers.
+Please feel free to make some suggesstions for more lists here. 
+
+### About Tab: Contains information like the one in this readme.
+
+Please see the wiki in github if you want to see the screenshots and some more explanation. 

@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Reflection;
 using System.Collections.Generic;
+using System.Resources;
 
 //https://github.com/fayaznaim/FolderMaker
 
@@ -1257,8 +1258,28 @@ namespace FayaxFolderMaker
             ////////////////////////////////////
             if (textBox1.Text != "" && carmanRBtn.Checked == true)
             {
-                MessageBox.Show("no code yet");
-
+                //Correct this.
+                richTextBox5.Clear();
+                statusLbl5.Text = "Creating folders...";
+                var assembly = Assembly.GetExecutingAssembly();
+                var resourceName = "FayaxFolderMaker.resources.cars.txt";
+                using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+                {
+                    using (StreamReader reader = new StreamReader(stream))
+                    {
+                        string result = reader.ReadToEnd();
+                        richTextBox5.AppendText(result);
+                    }
+                }
+                Directory.SetCurrentDirectory(textBox1.Text);
+                foreach (string carmans in richTextBox5.Lines)
+                {
+                    System.IO.Directory.CreateDirectory(carmans);
+                }
+                if (openFolderCbx.Checked == true)
+                {
+                    System.Diagnostics.Process.Start(textBox1.Text);  // Opens the folder where folders were created
+                }
             }
         }
         #endregion
@@ -1316,17 +1337,18 @@ namespace FayaxFolderMaker
                     }
                 }
                 else if (carmanRBtn.Checked == true)
+                {
+                    var resourceName = "FayaxFolderMaker.resources.cars.txt";
+                    using (Stream stream = assembly.GetManifestResourceStream(resourceName))
                     {
-                        var resourceName = "FayaxFolderMaker.resources.cars.txt";
-                        using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+                        using (StreamReader reader = new StreamReader(stream))
                         {
-                            using (StreamReader reader = new StreamReader(stream))
-                            {
-                                string result = reader.ReadToEnd();
-                                richTextBox5.AppendText(result);
-                            }
+                            string result = reader.ReadToEnd();
+                            richTextBox5.AppendText(result);
                         }
                     }
+                    statusLbl5.Text = "The following will be created...";
+                }
         } 
         #endregion
 
@@ -1523,6 +1545,11 @@ namespace FayaxFolderMaker
         }
 
         private void folderBrowserDialog2_HelpRequest(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox8_Enter(object sender, EventArgs e)
         {
 
         }

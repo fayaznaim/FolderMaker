@@ -4,7 +4,7 @@ If you want to use this utility please copy the /FayaxFolderMaker/bin/Release/Fa
 ### No dependencies. That one exe is the full program. 
 
 
-## A small utility to create folders, hundreds, thousands of them. The "Simulate" button is very imprtant as it does NOT create the foldrers but it will simulate the creation of the folders and shows you what you are about to create.
+## A small utility to create folders, hundreds, thousands of them. The "Simulate" button is very imprtant as it does NOT create the folders but it will simulate the creation of the folders and shows you what you are about to create.
 
 ** Folder names cannot contain certain characaters - please keep that in mind. 
 ** If a folder already exists in the target directory, a new folder with the same name will NOT be created. **
@@ -26,6 +26,7 @@ Select a text file, the program will read the textfile that you point to to get 
 
 ### Fifth Tab, "Specialized Folder":
 Here are some predefined folder names. I will add more here as I come across some that might be useful. 
+Currently it makes US States, Countries, Animals, Elements of the periodic table, and car manufacturers.
 Please feel free to make some suggesstions for more lists here. 
 
 ### About Tab: Contains information like the one in this readme.

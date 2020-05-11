@@ -21,4 +21,3 @@ C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\s
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\animals.txt
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\countries.txt
 C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\bin\Release\resources\elements.txt
-C:\fx1data\code\csharp\FayaxFolderMaker\FayaxFolderMaker\obj\Release\FayaxFolderMaker.csprojAssemblyReference.cache
