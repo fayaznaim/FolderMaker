@@ -1197,7 +1197,7 @@ namespace FayaxFolderMaker
                     System.Diagnostics.Process.Start(textBox1.Text);  // Opens the folder where folders were created
                 }
             }
-            ////////////////////////////////////////////////////
+            /////////////////////////////////////////////////////
             //
             //    Creating countries folders
             //
@@ -1253,7 +1253,7 @@ namespace FayaxFolderMaker
             //
             // Creating Car manufacturers only
             // This is done slightly differently than the other lists above. 
-            // this reads from the text file. 
+            // this reads from the text file. I might recode the rest of them so be the same as this. 
             //
             ////////////////////////////////////
             if (textBox1.Text != "" && carmanRBtn.Checked == true)
