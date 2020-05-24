@@ -314,9 +314,13 @@ namespace FayaxFolderMaker
             string[] moyBrev = new string[12] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" };
             string[] moyNums = new string[12] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12" };
 
-            if (textBox1.TextLength == 0)
+            if ((textBox1.TextLength == 0) && ((dowFullRbtn.Checked == false) || (moyFullBtn.Checked == false)))
             {
                 MessageBox.Show("A mandatory field is not specified.\n(Items in blue and with asterisk are mandatory.)", "Cannot complete task", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            if ((textBox1.TextLength != 0) && ((dowFullRbtn.Checked == false) || (moyFullBtn.Checked == false)))
+            {
+                MessageBox.Show("A mandatory field is not specified.\n(Please choose Weekdays or Months)", "Cannot complete task", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else if (textBox1.TextLength != 0)
             {
