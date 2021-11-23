@@ -32,3 +32,4 @@ Please feel free to make some suggesstions for more lists here.
 ### About Tab: Contains information like the one in this readme.
 
 Please see the wiki in github if you want to see the screenshots and some more explanation. 
+Written by Fayyaz fayaznaim@gmail.com
